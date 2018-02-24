@@ -14,9 +14,9 @@
 		4D100929204003ED00BF3B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D100928204003ED00BF3B11 /* Assets.xcassets */; };
 		4D10092C204003ED00BF3B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D10092A204003ED00BF3B11 /* LaunchScreen.storyboard */; };
 		4D10095B204016D300BF3B11 /* RedCircle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4D10095A204016D300BF3B11 /* RedCircle.svg */; };
-		4D10095E20403BE700BF3B11 /* GreenCircle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4D10095D20403BE700BF3B11 /* GreenCircle.svg */; };
-		4D10096020403BF500BF3B11 /* BlueCircle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4D10095F20403BF500BF3B11 /* BlueCircle.svg */; };
 		4D1009622040792F00BF3B11 /* ServiceCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1009612040792F00BF3B11 /* ServiceCalls.swift */; };
+		4D1AC2992041433700C88BC0 /* GreenCircle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AC2982041433700C88BC0 /* GreenCircle.svg */; };
+		4D1AC29B2041433D00C88BC0 /* BlueCircle.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AC29A2041433D00C88BC0 /* BlueCircle.svg */; };
 		88170222DB8D4890F768BCDB /* Pods_WeatherUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5442964C57418F4DB1CBA2CE /* Pods_WeatherUpdate.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +31,9 @@
 		4D10092B204003ED00BF3B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D10092D204003ED00BF3B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D10095A204016D300BF3B11 /* RedCircle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RedCircle.svg; sourceTree = "<group>"; };
-		4D10095D20403BE700BF3B11 /* GreenCircle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = GreenCircle.svg; path = "../../../../Diya Interactive Technical Test/Media/GreenCircle.svg"; sourceTree = "<group>"; };
-		4D10095F20403BF500BF3B11 /* BlueCircle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BlueCircle.svg; path = "../../../../Diya Interactive Technical Test/Media/BlueCircle.svg"; sourceTree = "<group>"; };
 		4D1009612040792F00BF3B11 /* ServiceCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCalls.swift; sourceTree = "<group>"; };
+		4D1AC2982041433700C88BC0 /* GreenCircle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GreenCircle.svg; sourceTree = "<group>"; };
+		4D1AC29A2041433D00C88BC0 /* BlueCircle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BlueCircle.svg; sourceTree = "<group>"; };
 		5442964C57418F4DB1CBA2CE /* Pods_WeatherUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B38715B4D82E6F447291B99 /* Pods-WeatherUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherUpdate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherUpdate/Pods-WeatherUpdate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		4D10095C20403BC400BF3B11 /* SVGMedia Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D1AC29A2041433D00C88BC0 /* BlueCircle.svg */,
+				4D1AC2982041433700C88BC0 /* GreenCircle.svg */,
 				4D10095A204016D300BF3B11 /* RedCircle.svg */,
-				4D10095D20403BE700BF3B11 /* GreenCircle.svg */,
-				4D10095F20403BF500BF3B11 /* BlueCircle.svg */,
 			);
 			path = "SVGMedia Files";
 			sourceTree = "<group>";
@@ -189,11 +189,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D10095E20403BE700BF3B11 /* GreenCircle.svg in Resources */,
+				4D1AC2992041433700C88BC0 /* GreenCircle.svg in Resources */,
 				4D10095B204016D300BF3B11 /* RedCircle.svg in Resources */,
 				4D10092C204003ED00BF3B11 /* LaunchScreen.storyboard in Resources */,
 				4D100929204003ED00BF3B11 /* Assets.xcassets in Resources */,
-				4D10096020403BF500BF3B11 /* BlueCircle.svg in Resources */,
+				4D1AC29B2041433D00C88BC0 /* BlueCircle.svg in Resources */,
 				4D100924204003ED00BF3B11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
